@@ -1,0 +1,6 @@
+---
+layout: post
+title: How to use pathogen.vim
+---
+
+h1. {{ page.title }}

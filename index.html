@@ -1,0 +1,31 @@
+---
+layout: default
+title: Jens Nazarenus
+---
+
+<h1>open source</h1>
+  <ul class="projects">
+    <li>
+      <span class="project">pacdiffvim</span> &raquo;
+      a pacnew/pacorig/pacsave file updater for Vim enthusiasts and Arch Linux users
+    </li>
+    <li>
+      <span class="project">vim-tasktimer</span> &raquo;
+      a task timer for the Vim editor
+    </li>
+    <li>
+      <span class="project">dpastecli</span> &raquo;
+      a shell script to paste content from stdin to http://dpaste.com/
+    </li>
+    <li>
+      <span class="project">tagesschau</span> &raquo;
+      a shell script which outputs the latest broadcast link of the television news service Tagesschau
+    </li>
+  </ul>
+
+<h1>blog posts</h1>
+<ul>
+{% for post in site.posts %}
+  <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %} 
+</ul>
