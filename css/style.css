@@ -11,6 +11,19 @@ body {
     margin-right: auto ;
 }
 
+
+.wrapper {
+  overflow: hidden;
+}
+
+.wrapper .left {
+  float: left;
+}
+
+.wrapper .right {
+  float: right;
+}
+
 .title {
   margin-bottom: 40px;
 }
@@ -35,7 +48,7 @@ body {
 
   .container .title a.nav:hover {
     color: #000000; 
-    border-bottom: 2px solid #B3272C;
+    border-bottom: 2px solid #000000;
   }
 
 .footer {
