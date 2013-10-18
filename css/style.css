@@ -65,6 +65,20 @@ h1 {
   font-size: 16px;
 }
 
+#picture {
+    width: 210px;
+    height: 210px;
+    float: left;
+    margin: 10px;
+    margin-right: 20px;
+    padding: 5px;
+    border: solid 1px #EFEFEF;
+    border: solid 1px #CCC;
+    -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+    box-shadow: 1px 1px 5px #999;
+}
+
 /*
 header {
   margin-left: auto;
@@ -89,24 +103,7 @@ header h1 a:hover {
   margin-right: auto; 
 }
 
-#picture {
-    width: 210px;
-    height: 210px;
-    float: left;
-    margin: 10px;
-    margin-right: 20px;
-    padding: 5px;
-    border: solid 1px #EFEFEF;
-    border: solid 1px #CCC;
-    -moz-box-shadow: 1px 1px 5px #999;
-    -webkit-box-shadow: 1px 1px 5px #999;
-    box-shadow: 1px 1px 5px #999;
-    -moz-transform:rotate(-3deg); 
-    -webkit-transform:rotate(-3deg); 
-    -o-transform:rotate(-3deg); 
-    -ms-transform:rotate(-3deg);
-    transform:rotate(-3deg); 
-}
+
 
 #summary {
     padding: 10px;
