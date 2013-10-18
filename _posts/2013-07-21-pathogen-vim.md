@@ -5,10 +5,11 @@ title: How to use pathogen.vim
 
 {{ page.title }}
 ================
-
+<!--sum-start-->
 [pathogen.vim](http://github.com/tpope/vim-pathogen) is a plugin for 
 the Vim editor where you can manage your runtime path in a very easy 
 way. This makes the installation of other Vim plugins easier.
+<!--sum-stop-->
 
 Benefit
 -------

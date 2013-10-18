@@ -2,30 +2,25 @@
 layout: default
 title: Jens Nazarenus
 ---
-
-<h1>open source</h1>
-  <ul class="projects">
-    <li>
-      <span class="project">pacdiffvim</span> &raquo;
-      a pacnew/pacorig/pacsave file updater for Vim enthusiasts and Arch Linux users
-    </li>
-    <li>
-      <span class="project">vim-tasktimer</span> &raquo;
-      a task timer for the Vim editor
-    </li>
-    <li>
-      <span class="project">dpastecli</span> &raquo;
-      a shell script to paste content from stdin to http://dpaste.com/
-    </li>
-    <li>
-      <span class="project">tagesschau</span> &raquo;
-      a shell script which outputs the latest broadcast link of the television news service Tagesschau
-    </li>
-  </ul>
-
-<h1>blog posts</h1>
-<ul>
+<h1>Blog posts</h1>
 {% for post in site.posts %}
   <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %} 
-</ul>
+{% endfor %}
+
+<h1>Projects</h1>
+  <li>
+  <a href="https://github.com/jens-na/pacdiffvim" class="project">pacdiffvim</a> &raquo;
+  a pacnew/pacorig/pacsave file updater for Vim enthusiasts and Arch Linux users
+  </li>
+  <li>
+  <a href="https://github.com/jens-na/vim-tasktimer" class="project">vim-tasktimer</a> &raquo;
+  a task timer for the Vim editor
+  </li>
+  <li>
+  <a href="https://github.com/jens-na/dpastecli" class="project">dpastecli</a> &raquo;
+  a shell script to paste content from stdin to http://dpaste.com/
+  </li>
+  <li>
+  <a href="https://github.com/jens-na/tagesschau" class="project">tagesschau</a> &raquo;
+  a shell script which outputs the latest broadcast link of the television news service Tagesschau
+  </li>
