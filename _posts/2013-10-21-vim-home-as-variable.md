@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: How to get ~/.vim directory
+title: Vim&#58; How to get ~/.vim directory as variable
 ---
 
 {{ page.title }}
@@ -16,3 +16,9 @@ to output the `~/.vim` home directory (Windows `~\.vimfiles`).
     endif
 
 Now if you type `echo $VIMHOME` you will see an output like `/home/user/.vim`.
+
+References
+==========
+  * ''help $VIM''
+  * [superuser - how do I get vim home directory](http://superuser.com/questions/119991/how-do-i-get-vim-home-directory)
+

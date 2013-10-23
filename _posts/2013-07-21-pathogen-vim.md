@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to use pathogen.vim
+title: Vim&#58; How to use pathogen.vim
 ---
 
 {{ page.title }}
