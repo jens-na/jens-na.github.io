@@ -19,6 +19,6 @@ Now if you type `echo $VIMHOME` you will see an output like `/home/user/.vim`.
 
 References
 ==========
-  * ''help $VIM''
+
   * [superuser - how do I get vim home directory](http://superuser.com/questions/119991/how-do-i-get-vim-home-directory)
 
