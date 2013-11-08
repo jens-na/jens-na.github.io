@@ -27,9 +27,11 @@ to install pathogen you have to install it in your `~\vimfiles` directory.
 This piece of code is copy-pasted from the pathogens README and does 
 everything what is neccessary to install pathogen on your system:
 
+{% highlight bash %}
     mkdir -p ~/.vim/autoload ~/.vim/bundle; \
     curl -Sso ~/.vim/autoload/pathogen.vim \
     https://raw.github.com/tpope/vim-pathogen/master/autoload/pathogen.vim
+{% endhighlight %}
 
 You can simply copy those three lines and paste them into your terminal. 
 If you have installed pathogen successfully you have to include the 
@@ -43,8 +45,10 @@ To install a custom plugin you can clone a repository directly into your
 new bundle/ directory. To install NERDTree (a very powerful and useful file 
 browser for the Vim editor) you can do it like that:
 
+{% highlight bash %}
     cd ~/.vim/bundle
     git clone "https://github.com/scrooloose/nerdtree.git"
+{% endhighlight %}
 
 Removing a custom plugin
 ------------------------
