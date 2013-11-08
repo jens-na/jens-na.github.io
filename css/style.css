@@ -1,6 +1,7 @@
 body {
     font-family: 'Molengo', sans-serif;
     line-height: 1.5;
+    background:url(/images/background.png);
 }
 
 h1 {
@@ -27,8 +28,8 @@ h1 {
     overflow: hidden;
     margin-top: 40px;
     width: 800px;
-    margin-left: auto ;
-    margin-right: auto ;
+    margin-left: auto;
+    margin-right: auto;
 }
 
   .container .title a.name {
@@ -60,8 +61,17 @@ h1 {
     bottom: 10px;
 }
 
-.projects {
-  font-size: 16px;
+.post span {
+    font-family: Monaco, "Courier New", monospace;
+    font-size: 80%;
+}
+
+.entry {
+  color: #20256b;
+}
+
+.entry:hover {
+  color: #000000;
 }
 
 #picture {
@@ -76,4 +86,4 @@ h1 {
     -moz-box-shadow: 1px 1px 5px #999;
     -webkit-box-shadow: 1px 1px 5px #999;
     box-shadow: 1px 1px 5px #999;
-  }
+}
