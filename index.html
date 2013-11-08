@@ -3,11 +3,9 @@ layout: default
 title: Jens Nazarenus
 ---
 <h1>Blog posts</h1>
-  <ul>
+  <ul class="posts">
       {% for post in site.posts %}
-      <div class="post">
         <li><span>{{ post.date | date_to_string }}</span> &raquo; <a class="entry" href="{{ post.url }}">{{ post.title }}</a></li>
-      </div>
       {% endfor %}
   </ul>
 <h1>Projects</h1>

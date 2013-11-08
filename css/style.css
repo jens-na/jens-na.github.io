@@ -1,7 +1,6 @@
 body {
     font-family: 'Molengo', sans-serif;
     line-height: 1.5;
-    background:url(/images/background.png);
 }
 
 h1 {
@@ -61,7 +60,7 @@ h1 {
     bottom: 10px;
 }
 
-.post span {
+.posts span {
     font-family: Monaco, "Courier New", monospace;
     font-size: 80%;
 }
