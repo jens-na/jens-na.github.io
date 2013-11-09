@@ -7,10 +7,21 @@ h1 {
   font-size: 16px;
 }
 
-.title {
+hr {
   margin-bottom: 40px;
+  border: 0;
+  height: 2px;
+  background: #d4d4d4;
 }
- 
+
+a {
+  color: #20256b;
+}
+
+a:hover {
+  color: #000000;
+}
+
 .wrapper {
   overflow: hidden;
 }
@@ -23,7 +34,7 @@ h1 {
     float: right;
   }
 
- .container {
+.container {
     overflow: hidden;
     margin-top: 40px;
     width: 800px;
@@ -63,14 +74,6 @@ h1 {
 .posts span {
     font-family: Monaco, "Courier New", monospace;
     font-size: 80%;
-}
-
-.entry {
-  color: #20256b;
-}
-
-.entry:hover {
-  color: #000000;
 }
 
 #picture {
