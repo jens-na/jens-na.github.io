@@ -1,7 +1,7 @@
 jens-na.github.io
 =================
 My personal website which contains a few blog posts and information about
-myself. The page is powered by Jekyll and Vim.
+myself. The page is powered by Jekyll and GitHub Pages.
 
 License
 =======
