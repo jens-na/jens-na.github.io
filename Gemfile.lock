@@ -70,6 +70,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages
+  github-pages (= 10)
   html-proofer
-  rake
+  rake (~> 10.0)
