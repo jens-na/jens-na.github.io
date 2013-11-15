@@ -1,5 +1,6 @@
 language: ruby
 rvm:
   2.0.0
-script: bundle exec jekyll build --trace
-after_success: ./script/htmlcheck
+script: 
+  - bundle exec jekyll build --trace
+  - ./script/htmlcheck
