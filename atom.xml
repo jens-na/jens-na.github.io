@@ -5,10 +5,10 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Jens Nazarenus</title>
- <link href="http://jens-na.github.io/atom.xml" rel="self"/>
- <link href="http://jens-na.github.io/"/>
+ <link href="http://jens-na.de/atom.xml" rel="self"/>
+ <link href="http://jens-na.de/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://jens-na.github.io/</id>
+ <id>http://jens-na.de</id>
  <author>
    <name>Jens Nazarenus</name>
    <email>jens@0x6a.de</email>
