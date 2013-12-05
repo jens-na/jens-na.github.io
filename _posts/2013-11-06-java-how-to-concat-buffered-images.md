@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java&#58; How to concatenate images (one below the other)
+title: Concatenate images (one below the other) in Java
 ---
 
 {{ page.title }}

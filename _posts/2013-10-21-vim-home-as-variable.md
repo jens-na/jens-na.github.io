@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: Vim&#58; How to get ~/.vim directory as variable
+title: Get ~/.vim directory as variable in Vim
 ---
 
 {{ page.title }}
