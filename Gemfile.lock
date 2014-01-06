@@ -72,4 +72,5 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   html-proofer
+  kramdown
   rake
