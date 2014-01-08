@@ -1,29 +1,31 @@
 ---
-layout: default
-title: Jens Nazarenus
+  layout: default
+  title: Jens Nazarenus 
 ---
-<h1>Blog posts</h1>
-  <ul class="posts">
-      {% for post in site.posts %}
-        <li><span>{{ post.date | date_to_string }}</span> &#8226; <a class="entry" href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-  </ul>
-<h1>Projects</h1>
+<h1>About me</h1>
+
+<div id="picture">
+  <a href="http://github.com/jens-na">
+    <img width="210" height="210" src="/images/me.jpeg" alt="me">
+  </a>
+</div>
 <ul>
-<li>
-<a href="https://github.com/jens-na/pacdiffvim" class="entry">pacdiffvim</a> &#8226;
-a pacnew/pacorig/pacsave file updater for Vim enthusiasts and Arch Linux users
-</li>
-<li>
-<a href="https://github.com/jens-na/vim-tasktimer" class="entry">vim-tasktimer</a> &#8226;
-a task timer for the Vim editor
-</li>
-<li>
-<a href="https://github.com/jens-na/dpastecli" class="entry">dpastecli</a> &#8226;
-a shell script to paste content from stdin to http://dpaste.com/
-</li>
-<li>
-<a href="https://github.com/jens-na/tagesschau" class="entry">tagesschau</a> &#8226;
-a shell script which outputs the latest broadcast link of the news service Tagesschau
-</li>
+  <li>I am a software developer. I am really in love with the programming
+  language Ruby at the moment.</li>
+  <li>Sometimes I post technical things on my <a href="/blog">blog</a>.</li>
 </ul>
+
+<h1>E-Mail</h1>
+<ul>
+  <li>me [at] this domain</li>
+</ul>
+<p>
+You can find my <a href="http://pgp.mit.edu/pks/lookup?op=get&amp;search=0x3DC3203E53533152">PGP public key</a> on the key servers.<br/>
+Fingerprint: <code>6ECE CB1C 203E AB0C BE5E  ED6F 3DC3 203E 5353
+  3152</code>
+</p>
+<p>
+If you don't want to send emails you can still find me on 
+<a href="https://github.com/jens-na">GitHub</a> or 
+<a href="https://twitter.com/jensna">Twitter</a>.
+</p>
