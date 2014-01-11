@@ -9,4 +9,5 @@ env:
 script:
 - bundle exec jekyll build --trace
 - bundle exec ./script/htmlcheck
+
 after_success: bundle exec travis-custom-deploy sftp service:jekyll
