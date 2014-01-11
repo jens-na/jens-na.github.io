@@ -1,6 +1,13 @@
 language: ruby
-rvm:
-  2.0.0
-script: 
-  - bundle exec jekyll build --trace
-  - bundle exec ./script/htmlcheck
+rvm: 2.0.0
+env:
+  global:
+  - secure: lRzKVRtCeK4ua1ysxcA2GjdbznJoLQqsQGKa+2P3jqIjQXiTJjn0VBGk1HvZ+naPJelemkHZ8TGFBDyHdVzRmEK/l1yzdeYWIJ8cem2gpuPjq17ZNEirCWhx4w7t0BYAhPnpQE5ifTsEttllpjj9FIqB4kDId3/v1DbrSvUE9cg=
+  - secure: KKIyEdggReJ+ZJeSywKM5xUnEX4FbYwzPoFSKkYtqsAowM0uIg+rM0tccruLN6Xv4CiwE+kq64D7iSzFNuQv7PyF7RTMEG3EACC1FqGEHenI2cTxqkOaQjPzVu+16kazU6ewEeED+8h0HVejLSz3lWtqMuJhSn2N0E8bkFxxmQA=
+  - secure: RKAsqD0yJkWZfWcxAEUrMujXNe+DJvzG5HTMpIt5Pc/QfKt8xdrYdjlt4m3UHCTHjGUY4/zsKTKPfhJI6FmJ8Gw8oXIbm/YVR4NQZ0xCAedG5pzVJZoVeveiuH9lDXOvziUwZBGp+WkGF3oHzEI70DGV/jDxJ7KwZ32iEi7+VvY=
+  - secure: YwyH87B/llBoTYVa06vkLrmvje1t6PGepWigcVZSURObWy+/8+l/x2Aa404NgN95Y9wiyy/i9Zhyb3xlvMCwbVrujkroU0DkRmdJIOK/yD93ZAYojrEydahciZZnzwJ+3hFXWsAhDqJsQogiuz1AmkA3jesTxK+ulyWiZLMvr0E=
+script:
+- bundle exec jekyll build --trace
+- bundle exec ./script/htmlcheck
+
+after_success: bundle exec travis-custom-deploy sftp service:jekyll
