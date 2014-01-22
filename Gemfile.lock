@@ -71,7 +71,7 @@ GEM
     safe_yaml (0.9.7)
     toml (0.1.0)
       parslet (~> 1.5.0)
-    travis-custom-deploy (0.0.5)
+    travis-custom-deploy (0.0.6)
       net-sftp (~> 2.1.2)
     typhoeus (0.6.7)
       ethon (~> 0.6.2)
