@@ -1,13 +1,13 @@
 ---
 layout: post
-title: How I deploy my Jekyll page on my own server
+title: How I deploy my Jekyll page to my own server
 ---
 
 {{ page.title }}
 ================
 Recently I wrote about [how awesome Jekyll, GitHub and Travis fits together][1].
 Now, I couple of weeks later I made the decision to deploy my private Jekyll
-based home page on my *own* server, because I like to use Jekyll with plugins. 
+based home page to my *own* server, because I like to use Jekyll with plugins. 
 
 Jekyll provides a few [instructions][2] how you can submit the built page to your
 own server but none of them suit my needs, which are:
