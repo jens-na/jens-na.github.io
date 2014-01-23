@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How I deploy my Jekyll page to my own server
+title: Deploy a Jekyll page with Travis to your own server
 ---
 
 {{ page.title }}
