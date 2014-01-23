@@ -5,7 +5,7 @@ title: Deploy a Jekyll page with Travis to your own server
 
 {{ page.title }}
 ================
-Recently I wrote about [how awesome Jekyll, GitHub and Travis fits together][1].
+Recently I wrote about [how awesome Jekyll, GitHub and Travis fit together][1].
 Now, I couple of weeks later I made the decision to deploy my private Jekyll
 based home page to my *own* server, because I like to use Jekyll with plugins. 
 
