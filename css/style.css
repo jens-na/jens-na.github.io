@@ -25,11 +25,8 @@ h1 {
 }
 
 a {
-  color: #20256b;
-}
-
-a:hover {
-  color: #000000;
+  color: #307EA9;
+  text-decoration: none;
 }
 
 .wrapper {
