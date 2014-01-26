@@ -2,29 +2,24 @@
   layout: default
   title: Jens Nazarenus 
 ---
-<h1>About me</h1>
 
+<h1>About me</h1>
 <div id="picture">
   <a href="http://github.com/jens-na">
     <img width="210" height="210" src="/images/me.jpeg" alt="me">
   </a>
 </div>
 <ul>
-  <li>I am a software developer. I like programming in Ruby</li>
-  <li>Sometimes I post technical things on my <a href="/blog">blog</a></li>
+  <li>My name is Jens. 
+  <li>I am a software developer and I like coding in Ruby.</li>
+  <li>I also like <a href="https://www.gnu.org/philosophy/free-sw.html">free software</a>.</li>
+  <li>Sometimes I post technical things on my <a href="/blog">blog</a>.</li>
 </ul>
+<h1>Latest posts</h1>
+  <ul class="posts">
+    {% for post in site.posts limit:4 %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
 
-<h1>E-Mail</h1>
-<ul>
-  <li>me [at] this domain</li>
-</ul>
-<p>
-You can find my <a href="http://pgp.mit.edu/pks/lookup?op=get&amp;search=0x3DC3203E53533152">PGP public key</a> on the key servers.<br/>
-Fingerprint: <code>6ECE CB1C 203E AB0C BE5E  ED6F 3DC3 203E 5353
-  3152</code>
-</p>
-<p>
-If you don't want to send emails you can still find me on 
-<a href="https://github.com/jens-na">GitHub</a> or 
-<a href="https://twitter.com/jensna">Twitter</a>.
-</p>
+
