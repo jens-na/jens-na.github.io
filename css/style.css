@@ -1,5 +1,5 @@
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   line-height: 1.5;
   font-size:1.0em
 }
@@ -28,6 +28,17 @@ h1 {
 a {
   color: #307EA9;
   text-decoration: none;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 2px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.4em 10px;
+}
+
+blockquote p {
+  display: inline;
 }
 
 .wrapper {
