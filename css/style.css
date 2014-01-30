@@ -1,7 +1,8 @@
 body {
   font-family: 'Ubuntu', sans-serif;
   line-height: 1.5;
-  font-size:1.0em
+  font-size:1.1em;
+  background: #fcfcfc;
 }
 
 h1 {
@@ -67,21 +68,30 @@ blockquote p {
     font-weight: bold;
     font-size: 20px;
     margin-right: 20px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
   }
 
-  .container.title a.name:hover {
-    color: #000000;
+  .container .title a.name:hover {
+    color: #307EA9;
   }
 
   .container .title a.nav {
     color: #000000;
     text-decoration: none; 
     margin-right: 5px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
   }
 
   .container .title a.nav:hover {
-    color: #000000; 
-    border-bottom: 2px solid #000000;
+    color: #307EA9; 
   }
 
 .footer {
