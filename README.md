@@ -1,7 +1,7 @@
 jens-na.github.io
 =================
 My personal website which contains a few blog posts and information about
-myself. The page is powered by Jekyll and GitHub Pages.
+myself. The page is powered by Jekyll and the [travis-custom-deploy](https://github.com/jens-na/travis-custom-deploy) gem.
 
 [![Build Status](https://travis-ci.org/jens-na/jens-na.github.io.png?branch=master)](https://travis-ci.org/jens-na/jens-na.github.io)
 
