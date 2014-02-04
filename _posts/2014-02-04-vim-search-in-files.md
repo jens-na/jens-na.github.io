@@ -14,7 +14,7 @@ pattern. Afterwards a quickfix window will show the matches.
 When pressing CTRL+F this input dialog will pop up.\\
 ![vim-search input dialog](/images/vim-search1.png)
 
-Aferwards you see a list in Vim.\\
+Afterwards you see a list in Vim.\\
 You can use `:cn` or `:cp` to navigate to the next and previous match in the 
 list.
 ![vim-search](/images/vim-search2.png)
