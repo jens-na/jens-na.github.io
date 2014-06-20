@@ -3,8 +3,6 @@ layout: post
 title: Concatenate images (one below the other) in Java
 ---
 
-{{ page.title }}
-================
 Recently I was faced with the problem to concatenate images with Java. To be
 more specific I needed to concatenate `BufferedImage` objects (one below the
 other). Afterwards I had to export the new image as a PNG file.

@@ -3,8 +3,6 @@ layout: post
 title: Search in multiple files with Vim
 ---
 
-{{ page.title }}
-================
 Searching in files in Vim isn't very intuitive because you need to know the
 correct syntax of the `:grep` or `:vimgrep` command.
 

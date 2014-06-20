@@ -3,8 +3,6 @@ layout: post
 title: Jekyll, GitHub, Travis - perfect fit
 ---
 
-{{ page.title }}
-================
 Recently I was looking for some alternatives to build a new homepage. My old homepage was
 static HTML and I loved it very much but writing blog posts in HTML isn't much fun. So I
 decided to search the world wide web for some alternatives and I found [Jekyll][1].

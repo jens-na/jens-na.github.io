@@ -3,8 +3,6 @@ layout: post
 title: Mobile PPP connections with ArchLinux' netctl
 ---
 
-{{ page.title }}
-====
 Yesterday I bought a SIM card from a communications service provider to
 be connected to the internet from everywhere. Luckily my Thinkpad T510
 has an integrated WWAN module named [Qualcomm Gobi 2000][3]. 

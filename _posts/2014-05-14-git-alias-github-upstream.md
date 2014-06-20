@@ -3,8 +3,6 @@ layout: post
 title: Git alias to add a GitHub upstream repo
 ---
 
-{{ page.title }}
-================
 Maybe there are people who have a similar `alias` but I think this is
 pretty useful for people who work with GitHub every day.
 
