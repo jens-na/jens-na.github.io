@@ -3,23 +3,10 @@
   title: Jens Nazarenus 
 ---
 
-<h1>About me</h1>
-<div id="picture">
-  <a href="http://github.com/jens-na">
-    <img width="210" height="210" src="/images/me.jpeg" alt="me">
-  </a>
-</div>
-<ul>
-  <li>My name is Jens. 
-  <li>I am a software developer and I like coding in Ruby.</li>
-  <li>I also like <a href="https://www.gnu.org/philosophy/free-sw.html">free software</a>.</li>
-  <li>Sometimes I post technical things on my <a href="/blog">blog</a>.</li>
-</ul>
-<h1>Latest posts</h1>
-  <ul class="posts">
-    {% for post in site.posts limit:4 %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+<h1>Latest Posts</h1>
+<dl>
+    {% for post in site.posts %}
+    <dt>{{ post.date | date_to_string }}</dt>
+    <dd><a href="{{ post.url }}">{{ post.title }}</a></dd>
     {% endfor %}
-  </ul>
-
-
+</dl>

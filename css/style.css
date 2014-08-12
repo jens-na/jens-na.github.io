@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .bhr {
@@ -105,19 +105,10 @@ blockquote p {
     font-size: 80%;
 }
 
-#picture {
-    width: 210px;
-    float: right;
-    height: 210px;
-    margin: 10px;
-    margin-right: 20px;
-    padding: 5px;
-    border: solid 1px #EFEFEF;
-    border: solid 1px #CCC;
-    -moz-box-shadow: 1px 1px 5px #999;
-    -webkit-box-shadow: 1px 1px 5px #999;
-    box-shadow: 1px 1px 5px #999;
-    transform: rotate(2deg);
-    -ms-transform: rotate(2deg); 
-    -webkit-transform: rotate(2deg); 
+dl dt { 
+  float: left; 
+  clear: left; 
+}
+dl dd { 
+  margin-left: 125px; 
 }
