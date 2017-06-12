@@ -8,6 +8,5 @@ env:
   - secure: YwyH87B/llBoTYVa06vkLrmvje1t6PGepWigcVZSURObWy+/8+l/x2Aa404NgN95Y9wiyy/i9Zhyb3xlvMCwbVrujkroU0DkRmdJIOK/yD93ZAYojrEydahciZZnzwJ+3hFXWsAhDqJsQogiuz1AmkA3jesTxK+ulyWiZLMvr0E=
 script:
 - bundle exec jekyll build --trace
-- bundle exec ./script/htmlcheck
 
 after_success: bundle exec travis-custom-deploy sftp service:jekyll
